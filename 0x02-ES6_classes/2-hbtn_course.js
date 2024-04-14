@@ -51,7 +51,7 @@ class HolbertonCourse {
     if (!students.join()) {
       throw new TypeError('Students must be an array');
     } else {
-      this._length = students;
+      this._students = students;
     }
   }
 }
