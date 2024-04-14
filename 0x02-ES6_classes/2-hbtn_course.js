@@ -12,7 +12,7 @@ class HolbertonCourse {
       this._length = length;
     }
 
-    if (!students.length) {
+    if (!students.join()) {
       throw new TypeError('Students must be an array');
     } else {
       this._students = students;
