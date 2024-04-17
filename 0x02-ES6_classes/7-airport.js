@@ -29,7 +29,7 @@ class Airport {
   }
 
   toString() {
-    return `[${typeof new Airport} ${this._code}]`;
+    return `[object ${this._code}]`;
   }
 }
 
